@@ -324,7 +324,7 @@ body hr {
 }
 
 .value-box .value {
-  font-size: 38px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0 0 3px 0;
   white-space: nowrap;
@@ -332,11 +332,11 @@ body hr {
 }
 
 .value-box .caption {
-  font-size: 15px;
+  font-size: 12px;
 }
 .value-box .caption > small {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 5px;
 }
 
@@ -344,7 +344,7 @@ body hr {
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 80px;
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.15);
 }
 
