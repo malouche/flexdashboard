@@ -691,5 +691,24 @@ table.dataTable thead th {
   display: none;
 }
 
+.sidebar{ /* Every rule that will be always visible, something like colors, fonts, etc. */
+  background-color: yellow; 
+  position: fixed;
+}
 
+@media(min-width:35.1em){ /* Larger than mobile devices */
+  .sidebar{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+  }
+}
+
+@media(max-width:35em){ /* Breakpoint only for mobile */
+  .sidebar{
+    bottom: 0;
+    width: 100%;
+  }
+}
 
