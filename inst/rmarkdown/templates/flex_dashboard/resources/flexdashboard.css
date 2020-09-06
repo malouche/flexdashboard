@@ -309,12 +309,12 @@ body hr {
 /* Value box */
 
 .value-box {
-  border-radius: 2px;
+  border-radius: 10px;
   position: relative;
   display: block;
   margin-right: 8px;
   margin-bottom: 8px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(1,0,0,0.2) 10px 12px 3px;
 }
 
 .value-box > .inner {
@@ -710,5 +710,21 @@ table.dataTable thead th {
     bottom: 0;
     width: 100%;
   }
+}
+
+
+.button {
+  background-color: #inherit;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: rgba(10,0,0,0.2) 5px 10px 3px;
+  border-radius: 30px;
 }
 
