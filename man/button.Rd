@@ -2,7 +2,7 @@
 % Please edit documentation in R/button.R
 \name{button}
 \alias{button}
-\title{Create a value box component for a dashboard.}
+\title{Create a button  component for a dashboard.}
 \usage{
 button(value, color = NULL, href = NULL)
 }
@@ -17,7 +17,7 @@ any valid CSS color value.}
 another dashboard page (e.g. "#details").}
 }
 \description{
-A value box displays a value (usually a number) in large text, with a smaller
+A button displays a value (usually a number) in large text, with a smaller
 caption beneath, and a large icon on the right side.
 }
 \details{

@@ -1,6 +1,6 @@
-#' Create a value box component for a dashboard.
+#' Create a button  component for a dashboard.
 #'
-#' A value box displays a value (usually a number) in large text, with a smaller
+#' A button displays a value (usually a number) in large text, with a smaller
 #' caption beneath, and a large icon on the right side.
 #'
 #' @param value the text in the button
@@ -59,7 +59,7 @@ button <- function(value, color = NULL, href = NULL) {
 #' @param quoted Is \code{expr} a quoted expression (with \code{quote()})? This
 #'   is useful if you want to save an expression in a variable.
 #'
-#' @name valueBox-shiny
+#' @name button-shiny
 #'
 #' @export
 buttonBoxOutput <- function(outputId, width = '100%', height = '160px') {
@@ -68,7 +68,7 @@ buttonBoxOutput <- function(outputId, width = '100%', height = '160px') {
 }
 
 
-#' @rdname valueBox-shiny
+#' @rdname button-shiny
 #' @export
 renderButtonBox <- function(expr, env = parent.frame(), quoted = FALSE) {
   if (!quoted) { expr <- substitute(expr) } # force quoted
