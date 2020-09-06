@@ -717,6 +717,7 @@ table.dataTable thead th {
 
 
 .button {
+ background-color: gray;
   border: none;
   color: black;
   padding: 15px 32px;
