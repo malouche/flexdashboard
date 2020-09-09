@@ -312,7 +312,6 @@ body hr {
   border-radius: 10px;
   position: relative;
   display: block;
-  height: 150px;
   margin-right: 8px;
   margin-bottom: 8px;
   box-shadow: rgba(1,0,0,0.2) 5px 12px 3px;
@@ -325,7 +324,7 @@ body hr {
 }
 
 .value-box .value {
-  font-size: 18px;
+  font-size: 100%;
   font-weight: bold;
   margin: 0 0 3px 0;
   white-space: nowrap;
@@ -333,11 +332,11 @@ body hr {
 }
 
 .value-box .caption {
-  font-size: 12px;
+  font-size: 70%;
 }
 .value-box .caption > small {
   display: block;
-  font-size: 12px;
+  font-size: 70%;
   margin-top: 5px;
 }
 
@@ -345,7 +344,7 @@ body hr {
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 30px;
+  font-size: 150%;
   color: rgba(0, 0, 0, 0.15);
 }
 
