@@ -334,6 +334,7 @@ body hr {
 
 .value-box .caption {
   font-size: 70%;
+ color: #808080;
 }
 .value-box .caption > small {
   display: block;
