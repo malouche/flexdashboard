@@ -329,6 +329,7 @@ body hr {
   margin: 0 0 3px 0;
   white-space: nowrap;
   padding: 0;
+ color: #000000;
 }
 
 .value-box .caption {
