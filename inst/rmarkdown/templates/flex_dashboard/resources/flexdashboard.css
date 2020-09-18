@@ -324,7 +324,7 @@ body hr {
 }
 
 .value-box .value {
-  font-size: 100%;
+  font-size: 130%;
   font-weight: bold;
   margin: 0 0 3px 0;
   white-space: nowrap;
@@ -333,7 +333,7 @@ body hr {
 }
 
 .value-box .caption {
-  font-size: 70%;
+  font-size: 100%;
  color: #808080;
 }
 .value-box .caption > small {
