@@ -343,7 +343,7 @@ body hr {
 }
 
 .value-box .icon i {
-  position: absolute;
+  position: relative;
   top: 15px;
   right: 15px;
   font-size: 150%;
