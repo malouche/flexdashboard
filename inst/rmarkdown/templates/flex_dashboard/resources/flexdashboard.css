@@ -720,7 +720,7 @@ table.dataTable thead th {
 .container {
   background-color: white;
   padding: 10px;
-  height: 200px;
+  height: 100px;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -731,7 +731,7 @@ table.dataTable thead th {
   border: none;
   display:block;
   width:100%;
-  height: 180px;
+  height: 100px;
   color: black;
   font-weight: bold;
   padding: 15px 32px;
@@ -762,7 +762,7 @@ button.button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 100px;
 }
 
 
@@ -770,7 +770,7 @@ button.button {
 .button .buttonbig .apptitle {
   font-weight: bold;
   text-transform: uppercase;
-  font-size:200%;
+  font-size:120%;
   padding: 0.625rem 0.9375rem;
 }
 
