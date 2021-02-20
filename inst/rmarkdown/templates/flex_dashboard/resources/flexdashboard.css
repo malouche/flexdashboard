@@ -754,7 +754,8 @@ table.dataTable thead th {
 
 
 .button .buttonbig .appimg {
-  width: 100%;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
   border-bottom: 1px solid #eee;
 }
