@@ -761,7 +761,7 @@ button.button {
   transform: translateY(-10px);
 }
 
-.center {
+.mycenter {
   display: flex;
   justify-content: center;
   align-items: center;
