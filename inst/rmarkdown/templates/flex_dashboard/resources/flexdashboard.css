@@ -717,11 +717,10 @@ table.dataTable thead th {
 
 /*button*/
 
-
-.button {
- background-color: gray;
+#button .buttonbig {
   border: none;
   color: black;
+  font-weight: bold;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -729,13 +728,35 @@ table.dataTable thead th {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  box-shadow: rgba(10,0,0,0.2) 5px 10px 3px;
-  border-radius: 30px;
-  border: 5px solid #D6D6D6;
+  background-color: #99CCFF;
+  box-shadow: 0 0 1.25rem #666;
+  border-radius: 10px;
 }
 
-.button:hover {
- background-color: #e9e9e9;
+#button .buttonbig:hover {
+  box-shadow: 0 0 2.25rem #666;
+  background: #d3d3d3;
+  border-color: #aaa;
+  transform: translateY(-10px);
+}
+
+#button .buttonbig .apptitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.625rem 0.9375rem;
+}
+
+#button .applink {
+  color: inherit;
+  display: block;
+  text-decoration: none !important;
+}
+
+
+#button .buttonbig .appimg {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
 }
 
 
