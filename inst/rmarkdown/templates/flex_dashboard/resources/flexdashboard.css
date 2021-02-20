@@ -720,7 +720,6 @@ table.dataTable thead th {
 .button .buttonbig {
   width:100%;
   display:block;
-  box-sizing: border-box;
   border: none;
   position: relative;
   display: block;
