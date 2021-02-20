@@ -758,9 +758,19 @@ button.button {
   transform: translateY(-10px);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+
+
 .button .buttonbig .apptitle {
   font-weight: bold;
   text-transform: uppercase;
+  font-size:200%;
   padding: 0.625rem 0.9375rem;
 }
 
