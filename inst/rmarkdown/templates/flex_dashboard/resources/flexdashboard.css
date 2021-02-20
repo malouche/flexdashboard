@@ -717,7 +717,7 @@ table.dataTable thead th {
 
 /*button*/
 
-#button .buttonbig {
+.button .buttonbig {
   border: none;
   color: black;
   font-weight: bold;
@@ -733,27 +733,27 @@ table.dataTable thead th {
   border-radius: 10px;
 }
 
-#button .buttonbig:hover {
+.button .buttonbig:hover {
   box-shadow: 0 0 2.25rem #666;
   background: #d3d3d3;
   border-color: #aaa;
   transform: translateY(-10px);
 }
 
-#button .buttonbig .apptitle {
+.button .buttonbig .apptitle {
   font-weight: bold;
   text-transform: uppercase;
   padding: 0.625rem 0.9375rem;
 }
 
-#button .applink {
+.button .applink {
   color: inherit;
   display: block;
   text-decoration: none !important;
 }
 
 
-#button .buttonbig .appimg {
+.button .buttonbig .appimg {
   width: 100%;
   cursor: pointer;
   border-bottom: 1px solid #eee;
