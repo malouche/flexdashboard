@@ -717,6 +717,11 @@ table.dataTable thead th {
 
 /*button*/
 
+* {
+    box-sizing: border-box
+} 
+
+
 .container {
   background-color: white;
   padding: 10px;
@@ -776,7 +781,7 @@ button.button {
   display: block;
   text-decoration: none !important;
 }
-
+  
 
 .button .buttonbig .appimg {
   width: 50px;
