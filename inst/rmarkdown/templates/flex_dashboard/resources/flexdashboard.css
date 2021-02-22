@@ -794,6 +794,10 @@ button.button {
   padding: 0.625rem 0.9375rem;
 }
 
+.button .buttonbig .apptitle:hover {
+  color: white;
+}
+
 .button .applink {
   color: inherit;
   display: block;
@@ -806,4 +810,14 @@ button.button {
   height: 50px;
   cursor: pointer;
   border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 767px) {
+  . button {
+    text-align: center;
+    margin-right: 8px;
+  }
+  .button .appimg {
+    display: none;
+  }
 }
