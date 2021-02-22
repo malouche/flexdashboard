@@ -31,6 +31,8 @@ body hr {
 .navbar-inverse .navbar-nav > li > a,
 .navbar .navbar-brand {
   text-decoration: none;
+  font-size=18;
+  color: black;
 }
 
 .navbar-logo {
