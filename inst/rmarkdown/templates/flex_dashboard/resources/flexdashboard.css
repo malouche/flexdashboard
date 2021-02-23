@@ -753,8 +753,8 @@ table.dataTable thead th {
 .button .buttonbig {
   border: none;
   display:block;
-  width: 200px;
-  height:150px;
+  width: 180px;
+  height:130px;
   white-space: wrap;
   color: black;
   font-weight: bold;
@@ -838,8 +838,8 @@ button.button {
   display: inline-block;
   vertical-align: top;
   color: #3d3852;
- width: 25rem;
- height: 30rem;
+ width: 300px;
+ height: 550px;
   margin: 0 1.125rem 2.5rem;
   background: #fff;
   transition: all 250ms;
