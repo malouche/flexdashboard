@@ -846,6 +846,13 @@ button.button {
   box-shadow: 0 0 1.25rem #ccc;
   border: 1px solid #eee;
 }
+
+
+#shinyapps-big.shinyapps-big {
+  width: calc(100% - 20px);
+}
+
+
 #shinyapps-big .shinyapp:hover {
   box-shadow: 0 0 1.25rem #666;
   background: #f2f6f9;
