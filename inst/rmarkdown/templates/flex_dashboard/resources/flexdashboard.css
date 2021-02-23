@@ -839,8 +839,6 @@ button.button {
 #shinyapps-big .shinyapp {
   display: inline-block;
   vertical-align: top;
-  width: 50rem;
-  height: 70rem;
   color: #3d3852;
   margin: 0 1.125rem 2.5rem;
   background: #fff;
@@ -849,6 +847,7 @@ button.button {
   border: 1px solid #eee;
   box-shadow: 0 0 1.55rem #666;
   border-radius: 10px;
+  flex-grow: 1;
 }
 
 
