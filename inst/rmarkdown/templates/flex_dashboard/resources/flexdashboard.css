@@ -837,6 +837,7 @@ button.button {
   display: inline-block;
   vertical-align: top;
   width: 25rem;
+  height: 60rem;
   color: #3d3852;
   margin: 0 1.125rem 2.5rem;
   background: #fff;
