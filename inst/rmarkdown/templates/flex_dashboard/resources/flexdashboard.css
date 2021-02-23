@@ -838,8 +838,8 @@ button.button {
   display: inline-block;
   vertical-align: top;
   color: #3d3852;
- width: 300px;
- height: 550px;
+ width: 25rem;
+ height: 30rem;
   margin: 0 1.125rem 2.5rem;
   background: #fff;
   transition: all 250ms;
