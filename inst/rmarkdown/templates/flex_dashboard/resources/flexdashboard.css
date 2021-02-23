@@ -813,10 +813,19 @@ button.button {
   border-bottom: 1px solid #eee;
 }
 
+
+.button .buttonbig .appdesc {
+  padding: 0 0.9375rem 0.9375rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
 @media (max-width: 767px) {
   . button {
     text-align: center;
-    margin-right: 8px;
+    margin-right: 2px;
+    margin-left: 2px;
   }
   .button .appimg {
     display: none;
