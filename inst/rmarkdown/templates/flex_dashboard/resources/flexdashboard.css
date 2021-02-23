@@ -839,8 +839,8 @@ button.button {
 #shinyapps-big .shinyapp {
   display: inline-block;
   vertical-align: top;
-  width:33%;
-  height: 30rem;
+  width: 50rem;
+  height: 70rem;
   color: #3d3852;
   margin: 0 1.125rem 2.5rem;
   background: #fff;
@@ -867,7 +867,7 @@ button.button {
   font-weight: bold;
   text-transform: uppercase;
   padding: 0.625rem 0.9375rem;
-  font-size: 150%;
+  font-size: 120%;
 }
 #shinyapps-big .shinyapp .appimg {
   width: 100%;
@@ -886,7 +886,7 @@ button.button {
   line-height: 1.5em;
   text-align: justify;
   text-justify: inter-word;
- font-size: 120%
+ font-size: 100%
 }
 @media only screen and (max-width: 1899px) {
   #shinyapps-big .shinyapp {
