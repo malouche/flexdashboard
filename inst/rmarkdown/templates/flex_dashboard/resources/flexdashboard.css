@@ -870,6 +870,8 @@ button.button {
   padding: 0 0.9375rem 0.9375rem;
   font-size: 1rem;
   line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
 }
 @media only screen and (max-width: 1899px) {
   #shinyapps-big .shinyapp {
