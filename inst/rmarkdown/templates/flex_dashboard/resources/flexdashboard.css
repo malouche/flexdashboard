@@ -831,3 +831,63 @@ button.button {
     display: none;
   }
 }
+
+
+#shinyapps-big .shinyapp {
+  display: inline-block;
+  vertical-align: top;
+  width: 25rem;
+  color: #3d3852;
+  margin: 0 1.125rem 2.5rem;
+  background: #fff;
+  transition: all 250ms;
+  text-align: left;
+  box-shadow: 0 0 1.25rem #ccc;
+  border: 1px solid #eee;
+}
+#shinyapps-big .shinyapp:hover {
+  box-shadow: 0 0 1.25rem #666;
+  background: #f2f6f9;
+  border-color: #aaa;
+  transform: translateY(-10px);
+}
+#shinyapps-big .shinyapp .apptitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.625rem 0.9375rem;
+}
+#shinyapps-big .shinyapp .appimg {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+#shinyapps-big .applink {
+  color: inherit;
+  display: block;
+  text-decoration: none !important;
+}
+#shinyapps-big .shinyapp .appdesc {
+  padding: 0 0.9375rem 0.9375rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+@media only screen and (max-width: 1899px) {
+  #shinyapps-big .shinyapp {
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 999px) {
+  #shinyapps-big .shinyapp {
+    width: 20rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #shinyapps-big {
+    padding: 0 1rem;
+  }
+  #shinyapps-big .shinyapp {
+    display: block;
+    margin: 1.75rem auto;
+    max-width: 100%;
+  }
+}
