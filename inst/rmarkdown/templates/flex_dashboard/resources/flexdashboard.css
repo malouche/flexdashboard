@@ -858,6 +858,7 @@ button.button {
 }
 #shinyapps-big .shinyapp .appimg {
   width: 100%;
+  height: auto;
   cursor: pointer;
   border-bottom: 1px solid #eee;
 }
