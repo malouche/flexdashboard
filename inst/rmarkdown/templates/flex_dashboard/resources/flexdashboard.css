@@ -753,12 +753,12 @@ table.dataTable thead th {
 .button .buttonbig {
   border: none;
   display:block;
-  width: 130px;
-  height:100px;
+  width: 200px;
+  height:150px;
   white-space: wrap;
   color: black;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 18px;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
