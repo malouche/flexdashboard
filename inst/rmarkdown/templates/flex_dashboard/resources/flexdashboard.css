@@ -732,6 +732,9 @@ table.dataTable thead th {
 }
 
 
+
+
+
 /*button*/
 
 * {
@@ -830,6 +833,31 @@ button.button {
   }
   .button .appimg {
     display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .botton {
+    width: 40%;
+   text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .apptitle {
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .button {
+    width: 90%;
+   text-align: center;
   }
 }
 
